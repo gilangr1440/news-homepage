@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="styles/CSS/css-reset.css" />
+    <link rel="stylesheet" href="styles/CSS/style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/images/logo.svg" alt="logo" class="header__logo" />
+      <div class="header__navbar-overlay"></div>
+      <nav class="top-navbar">
+        <button class="top-navbar__close-button">
+          <img src="assets/images/icon-menu-close.svg" alt="close-icon" class="top-navbar__close-icon" />
+        </button>
+        <div class="top-navbar__links">
+          <a href="#" class="top-navbar__link">Home</a>
+          <a href="#" class="top-navbar__link">New</a>
+          <a href="#" class="top-navbar__link">Popular</a>
+          <a href="#" class="top-navbar__link">Trending</a>
+          <a href="#" class="top-navbar__link">Categories</a>
+        </div>
+      </nav>
+
+      <div class="top-navbar-desktop">
+        <a href="#" class="top-navbar-desktop__link">Home</a>
+        <a href="#" class="top-navbar-desktop__link">New</a>
+        <a href="#" class="top-navbar-desktop__link">Popular</a>
+        <a href="#" class="top-navbar-desktop__link">Trending</a>
+        <a href="#" class="top-navbar-desktop__link">Categories</a>
+      </div>
+      <button class="header__button"><img src="assets/images/icon-menu.svg" alt="btn" class="header__button-icon" /></button>
+    </header>
+
+    <main class="main">
+      <section class="first-section">
+        <div class="first-section__image-container">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="img" class="first-section__image-desktop" />
+          <img src="assets/images/image-web-3-mobile.jpg" alt="img" class="first-section__image-mobile" />
+        </div>
+        <h1 class="first-section__title">The Bright Future of Web 3.0?</h1>
+        <p class="first-section__content">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <a href="*" class="first-section__button">Read more</a>
+      </section>
+      <section class="side-section">
+        <h1 class="side-section__title">New</h1>
+        <div class="side-section__posts">
+          <h2 class="side-section__post-title">Hydrogen VS Electric Cars</h2>
+          <p class="side-section__post-excerpt">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr />
+        <div class="side-section__posts">
+          <h2 class="side-section__post-title">The Downsides of AI Artistry</h2>
+          <p class="side-section__post-excerpt">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr />
+        <div class="side-section__posts">
+          <h2 class="side-section__post-title">Is VC Funding Drying Up?</h2>
+          <p class="side-section__post-excerpt">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <div class="bottom-section__posts">
+          <div class="bottom-section__post-image-container">
+            <img src="assets/images/image-retro-pcs.jpg" alt="img" class="bottom-section__post-image" />
+          </div>
+          <h1 class="bottom-section__post-number">01</h1>
+          <h2 class="bottom-section__post-title">Reviving Retro PCs</h2>
+          <p class="bottom-section__post-excerpt">What happens when old PCs are given modern upgrades?</p>
+        </div>
+        <div class="bottom-section__posts">
+          <div class="bottom-section__post-image-container">
+            <img src="assets/images/image-top-laptops.jpg" alt="img" class="bottom-section__post-image" />
+          </div>
+          <h1 class="bottom-section__post-number">02</h1>
+          <h2 class="bottom-section__post-title">Top 10 Laptops of 2022</h2>
+          <p class="bottom-section__post-excerpt">Our best picks for various needs and budgets.</p>
+        </div>
+        <div class="bottom-section__posts">
+          <div class="bottom-section__post-image-container">
+            <img src="assets/images/image-gaming-growth.jpg" alt="img" class="bottom-section__post-image" />
+          </div>
+          <h1 class="bottom-section__post-number">03</h1>
+          <h2 class="bottom-section__post-title">The Growth of Gaming</h2>
+          <p class="bottom-section__post-excerpt">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/gilangr1440/">Gilang Ramadhan</a>.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
