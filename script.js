@@ -9,6 +9,10 @@ menuButton.addEventListener("click", () => {
 
   overlay.classList.add("active");
   navbar.classList.add("active");
+
+  setTimeout(() => {
+    document.body.style.overflow = "hidden";
+  }, 400);
 });
 
 closeButton.addEventListener("click", () => {
@@ -18,6 +22,7 @@ closeButton.addEventListener("click", () => {
   setTimeout(() => {
     overlay.classList.remove("active");
     navbar.classList.remove("active");
+    document.body.style.overflow = "initial";
   }, 400);
 });
 
@@ -28,5 +33,6 @@ overlay.addEventListener("click", () => {
   setTimeout(() => {
     overlay.classList.remove("active");
     navbar.classList.remove("active");
+    document.body.style.overflow = "initial";
   }, 400);
 });
